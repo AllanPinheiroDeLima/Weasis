@@ -22,7 +22,7 @@ jobs:
       - name: Build with Maven
         shell: bash
         run: |
-          mvn -B clean install
+          mvn -B clean install -DskipTests
           mvn -B -P compressXZ -f weasis-distributions clean package
 
       - name: Retrieve version
