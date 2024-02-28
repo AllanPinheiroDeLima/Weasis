@@ -1,6 +1,6 @@
 [Desktop Entry]
 Version=1.0
-Name=Weasis
+Name=N Work
 Comment=Medical DICOM viewer
 Exec=weasis %U
 Icon=${SNAP}/meta/gui/weasis.png
