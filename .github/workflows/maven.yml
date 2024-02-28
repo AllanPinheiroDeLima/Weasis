@@ -20,4 +20,4 @@ jobs:
           java-version: '21'
           cache: 'maven'
       - name: Build and analyze
-        run: mvn
+        run: mvn -Pcoverage
