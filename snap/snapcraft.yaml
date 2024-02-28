@@ -1,10 +1,10 @@
 name: weasis
-title: Weasis
+title: N-Work
 base: core22
 version: '4.3.0'
 summary: A free/libre/open medical DICOM viewer
 description: |
-  Weasis is a multipurpose standalone and web-based DICOM viewer with 
+  N-Work is a multipurpose standalone and web-based DICOM viewer with 
   a highly modular architecture. It is a very popular clinical viewer 
   used in healthcare by hospitals, health networks, multicenter research 
   trials, and patients.
