@@ -14,7 +14,7 @@
   <artifactId>weasis-launcher</artifactId>
   <!-- The weasis launcher is not OSGI bundle, it is a simple jar -->
   <packaging>jar</packaging>
-  <name>Weasis Launcher (Felix) [${project.artifactId}]</name>
+  <name>N Work Launcher (Felix) [${project.artifactId}]</name>
 
   <licenses>
     <license>

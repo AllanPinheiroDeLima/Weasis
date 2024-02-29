@@ -84,7 +84,7 @@ public class ConfigData {
 
   public void init(String[] args) {
     this.clear();
-    LOGGER.log(Level.INFO, "Starting Weasis...");
+    LOGGER.log(Level.INFO, "Starting N Work...");
     LOGGER.log(Level.INFO, "Initialization of the launch configuration...");
 
     if (args != null) {
@@ -171,7 +171,7 @@ public class ConfigData {
     String profile = preferences.getProperty(P_WEASIS_PROFILE, "default");
     addProperty(P_WEASIS_PROFILE, profile);
 
-    String name = preferences.getProperty(P_WEASIS_NAME, "Weasis"); // NON-NLS
+    String name = preferences.getProperty(P_WEASIS_NAME, "N Work"); // NON-NLS
     addProperty(P_WEASIS_NAME, name);
 
     String version = preferences.getProperty(P_WEASIS_VERSION, "0.0.0");
@@ -622,7 +622,7 @@ public class ConfigData {
       preferences.readJson(propURI);
 
     } else {
-      LOGGER.log(Level.ERROR, "No base.json path found, Weasis cannot start!");
+      LOGGER.log(Level.ERROR, "No base.json path found, N Work cannot start!");
     }
 
     propURI = getPropertiesURI(EXTENDED_PROPERTIES_PROP, null);

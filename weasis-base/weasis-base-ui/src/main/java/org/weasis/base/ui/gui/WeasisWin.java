@@ -1170,7 +1170,7 @@ public class WeasisWin {
 
   public void info(String[] argv) {
     final String[] usage = {
-      "Show information about Weasis", // NON-NLS
+      "Show information about N Work", // NON-NLS
       "Usage: weasis:info (-v | -a)", // NON-NLS
       "  -v --version    show version", // NON-NLS
       "  -a --all        show weasis specifications", // NON-NLS

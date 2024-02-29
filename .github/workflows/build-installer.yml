@@ -52,7 +52,7 @@ jobs:
   jpackage:
     env:
       JDK_MODULES: "java.base,java.compiler,java.datatransfer,java.net.http,java.desktop,java.logging,java.management,java.prefs,java.xml,jdk.localedata,jdk.charsets,jdk.crypto.ec,jdk.crypto.cryptoki,jdk.unsupported,jdk.jdwp.agent,java.sql"
-      NAME: "Weasis"
+      NAME: "N Work"
       IDENTIFIER: "org.weasis.launcher"
       WEASIS_INPUT: "native-dist/weasis-native/bin-dist"
       WEASIS_OUTPUT: "output-dist"
@@ -170,8 +170,8 @@ jobs:
         env:
           RES: "native-dist/weasis-native/build/script/resources/${{ matrix.wsystem }}"
           FILE_ASSOC: "native-dist/weasis-native/build/script/file-associations.properties"
-          VENDOR: "Weasis Team"
-          COPYRIGHT: "© 2009-2023 Weasis Team"
+          VENDOR: "N Work Team"
+          COPYRIGHT: "© 2009-2023 N Work Team"
         run: |
           mkdir -p final-dist
           machine=${{ matrix.wsystem }}
